@@ -120,7 +120,7 @@
     dabeeoSDK.setZoomLevel(value: 5.0)
 ```
 
-> 지도 이동/회전
+> 지도 이동, 회전, Tilt
 
 ```swift
     dabeeoSDK.moveTo(point: CGPoint(x: 800, y: 400))
@@ -129,7 +129,12 @@
     dabeeoSDK.setEnableRotation(isUse: false)
     // 지도 회전 사용 여부
     
-    dabeeoSDK.setAngle(degree: currentDegree + 10)
+    dabeeoSDK.setAngle(degree: 10)
+    
+    dabeeoSDK.setUsetTiltGesture(isUse: false)
+    // 3D Map에서 tilt 사용 여부
+    
+    dabeeoSDK.setMapTilt(degree: 10)
 ```
 
 > 층 변경하기
@@ -205,7 +210,7 @@
 > 내비게이션 종료
 
 ```swift
-dabeeoSDK.stopNavigation(type: navigationType)
+    dabeeoSDK.stopNavigation(type: navigationType)
 ```
 
 </details>
