@@ -28,11 +28,23 @@
    </dict>
   ```
   
+  카메라 권한을 허용합니다.
+
+``` swift
+  <string>use camera</string>
+```
+  
   ## 샘플 코드 (Swift)
   <details>
   <summary>SDK 인스턴스 생성 및 설정</summary>
   
   ### IMSDK 인스턴스 생성 및 Delegate와 IMSDKOption 설정
+  
+  > Import SDK
+
+```swift
+    import IM_SDK
+```
 
 > IMSDK 인스턴스 생성
 
