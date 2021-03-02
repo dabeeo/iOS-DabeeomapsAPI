@@ -31,7 +31,8 @@
   카메라 권한을 허용합니다.
 
 ``` swift
-  <string>use camera</string>
+  <key>NSCameraUsageDescription</key>
+     <string>camera description</string>
 ```
   
   ## 샘플 코드 (Swift)
