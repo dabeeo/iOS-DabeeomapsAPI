@@ -8,7 +8,7 @@
 ​
 ​
 ## 프로젝트 설정
-​
+
 ### IMSDK 추가
 - ``` IM_SDK.famework ``` 파일을 프로젝트 내 ``` IM_App/ ``` 안에 넣어줍니다.
 ​
@@ -17,8 +17,8 @@
 - Deployment Target을 13.0 이상으로 설정합니다.
 ​
 ### Info.plist Setting
-​
-* Https 통신을 허용합니다.
+
+ Https 통신을 허용합니다.
 ​
   ```swift
   <key>NSAppTransportSecurity</key>
