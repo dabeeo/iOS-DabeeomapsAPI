@@ -4,7 +4,7 @@
 본 저장소는 IMSDK를 보다 쉽게 적용하기 위한 튜토리얼 프로젝트를 제공합니다.
 ​
 ## API 문서
-- [Project 폴더 안에 IMSDK_iOS_API_v1.00.00.pdf]
+- [API 문서로 이동](https://github.com/dabeeo/iOS-DabeeomapsAPI/blob/master/IMSDK_iOS_API_v1.00.00.pdf)
 ​
 ​
 ## 프로젝트 설정
