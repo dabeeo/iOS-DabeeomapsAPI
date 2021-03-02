@@ -31,6 +31,7 @@
   ## 샘플 코드 (Swift)
   <details>
   <summary>SDK 인스턴스 생성 및 설정</summary>
+  
   ### IMSDK 인스턴스 생성 및 Delegate와 IMSDKOption 설정
 
 > IMSDK 인스턴스 생성
